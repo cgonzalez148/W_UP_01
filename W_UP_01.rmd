@@ -55,9 +55,18 @@ load the num~cat helper file
 boxplot(pushups~position,data=mydata)
 ```
 
+The boxplot shows that the skill players can do more pushups in 2 minutes than the players on the line. 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+This table shows that skill players average on 17.125 and line players average on 49.727.
 
 ## Inferential Results
 
