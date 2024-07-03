@@ -52,7 +52,7 @@ load the num~cat helper file
 
 
 ```{r}
-plot(momheight~Sex,data=davisdata)
+boxplot(pushups~position,data=mydata)
 ```
 
 ### Numerical Descriptive Results
